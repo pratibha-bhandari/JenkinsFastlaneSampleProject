@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E73E8D3420E5DECD00E12C26 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E8D3320E5DECC00E12C26 /* SnapshotHelper.swift */; };
+		E73E8D4420E5F81800E12C26 /* fastlane in Resources */ = {isa = PBXBuildFile; fileRef = E73E8D4320E5F81800E12C26 /* fastlane */; };
 		E7929D5020E2087B00F665D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7929D4F20E2087B00F665D9 /* AppDelegate.swift */; };
 		E7929D5220E2087B00F665D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7929D5120E2087B00F665D9 /* ViewController.swift */; };
 		E7929D5520E2087B00F665D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7929D5320E2087B00F665D9 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E73E8D3320E5DECC00E12C26 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
+		E73E8D4320E5F81800E12C26 /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fastlane; sourceTree = SOURCE_ROOT; };
 		E7929D4C20E2087B00F665D9 /* JenkinsFastlaneSampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsFastlaneSampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7929D4F20E2087B00F665D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7929D5120E2087B00F665D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +101,7 @@
 		E7929D4E20E2087B00F665D9 /* JenkinsFastlaneSampleProject */ = {
 			isa = PBXGroup;
 			children = (
+				E73E8D4320E5F81800E12C26 /* fastlane */,
 				E7929D4F20E2087B00F665D9 /* AppDelegate.swift */,
 				E7929D5120E2087B00F665D9 /* ViewController.swift */,
 				E7929D5320E2087B00F665D9 /* Main.storyboard */,
@@ -119,6 +124,7 @@
 		E7929D6E20E2087B00F665D9 /* JenkinsFastlaneSampleProjectUITests */ = {
 			isa = PBXGroup;
 			children = (
+				E73E8D3320E5DECC00E12C26 /* SnapshotHelper.swift */,
 				E7929D6F20E2087B00F665D9 /* JenkinsFastlaneSampleProjectUITests.swift */,
 				E7929D7120E2087B00F665D9 /* Info.plist */,
 			);
@@ -197,12 +203,12 @@
 					};
 					E7929D5F20E2087B00F665D9 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						TestTargetID = E7929D4B20E2087A00F665D9;
 					};
 					E7929D6A20E2087B00F665D9 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						TestTargetID = E7929D4B20E2087A00F665D9;
 					};
 				};
@@ -234,6 +240,7 @@
 			files = (
 				E7929D5A20E2087B00F665D9 /* LaunchScreen.storyboard in Resources */,
 				E7929D5720E2087B00F665D9 /* Assets.xcassets in Resources */,
+				E73E8D4420E5F81800E12C26 /* fastlane in Resources */,
 				E7929D5520E2087B00F665D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7929D7020E2087B00F665D9 /* JenkinsFastlaneSampleProjectUITests.swift in Sources */,
+				E73E8D3420E5DECD00E12C26 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +352,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: DB Systel GmbH";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -401,7 +409,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: DB Systel GmbH";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -429,13 +437,13 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = N6L8987864;
+				DEVELOPMENT_TEAM = WY955LPLRA;
 				INFOPLIST_FILE = JenkinsFastlaneSampleProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.carey.Demo;
+				PRODUCT_BUNDLE_IDENTIFIER = org.niitdelhi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9c92b821-9317-41d6-8330-c853abb0c0f1";
-				PROVISIONING_PROFILE_SPECIFIER = Demo;
+				PROVISIONING_PROFILE = "c743a589-aa65-4a00-b7e6-0f3bf1264028";
+				PROVISIONING_PROFILE_SPECIFIER = adhocniitdelhijenkins;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,13 +456,13 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = N6L8987864;
+				DEVELOPMENT_TEAM = WY955LPLRA;
 				INFOPLIST_FILE = JenkinsFastlaneSampleProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.carey.Demo;
+				PRODUCT_BUNDLE_IDENTIFIER = org.niitdelhi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9c92b821-9317-41d6-8330-c853abb0c0f1";
-				PROVISIONING_PROFILE_SPECIFIER = Demo;
+				PROVISIONING_PROFILE = "c743a589-aa65-4a00-b7e6-0f3bf1264028";
+				PROVISIONING_PROFILE_SPECIFIER = adhocniitdelhijenkins;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -465,7 +473,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				INFOPLIST_FILE = JenkinsFastlaneSampleProjectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = niit.JenkinsFastlaneSampleProjectTests;
@@ -481,7 +489,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				INFOPLIST_FILE = JenkinsFastlaneSampleProjectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = niit.JenkinsFastlaneSampleProjectTests;
@@ -496,7 +504,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				INFOPLIST_FILE = JenkinsFastlaneSampleProjectUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = niit.JenkinsFastlaneSampleProjectUITests;
@@ -511,7 +519,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				INFOPLIST_FILE = JenkinsFastlaneSampleProjectUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = niit.JenkinsFastlaneSampleProjectUITests;
